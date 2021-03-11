@@ -1,0 +1,18 @@
+{
+  "name": "trueswap",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "compile": "tronbox compile",
+    "deploy:shasta": "source .env && tronbox deploy --network shasta"
+  },
+  "originalAuthors": "trueswap",
+  "author": {
+    "name": "True Swap"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@ethersproject/constants": "^5.0.9",
+    "tronweb": "^3.2.3"
+  }
+}
